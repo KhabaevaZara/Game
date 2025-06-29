@@ -51,7 +51,7 @@ let map = [
     drawWalls()
  };
 
- let gameInterval = setInteval(gameLoop, 1000/fps);
+ let gameInterval = setInterval(gameLoop, 1000/fps);
 
  let drawWalls = () => {
   for (let i = 0 ; i < map.length ; i++) {
